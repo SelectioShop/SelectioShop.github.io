@@ -93,6 +93,7 @@ button:hover{
 .content h1{
     font-size: 70px;
     margin-top: 80px;
+    padding-top: 30px;
 }
 
 .content p{
@@ -138,6 +139,32 @@ span{
     border: none  
 }
 
+
+@media (max-width: 574px) {
+    .content h1{
+        flex-direction: column;
+        padding: 20px;
+        font-size: 50px;
+    }
+    .content p{
+        padding: 15px;
+        margin: 0px;
+        font-size: 14px;
+    }
+    .logo{
+        width:120px;
+    }
+
+    .navbar ul li a{
+        font-size: 13px;
+    }
+    .CONSTRUCTION{
+        font-size: 20px;
+    }
+}
+
+
+
 @media (max-width: 769px) {
     header{
         flex-direction: column;
@@ -148,6 +175,18 @@ span{
         margin: 0px;
     }
 }
+
+@media (max-width: 574px) {
+    header{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .navbar{
+        padding: 15px;
+        margin: 0px;
+    }
+}
+
 
 
 .container-2{
