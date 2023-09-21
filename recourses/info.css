@@ -121,6 +121,14 @@ button:hover{
     .contact-1{
         padding-top: 10px;
     }
+    .section-2 h1{
+        font-size: 25px;
+    
+    }
+
+    .section-2 p{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 769px) {
