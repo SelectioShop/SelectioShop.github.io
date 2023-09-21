@@ -7,7 +7,7 @@
 }
 
 .section-1{
-    background: url(./images/hooded-burglar-threatens-danger-spooky-darkness-generated-by-ai_188544-43316.avif);
+    background: url(./images/hooded-burglar-threatens-danger-spooky-darkness-generated-by-ai_188544-43316.jpg);
     width: 100%;
     background-size: cover;
     height: 90vh;
@@ -95,14 +95,14 @@ button:hover{
 
 .card{
     background-color: white;
-    width: 560px;
+    width: 270px;
     margin: 10px;
     border-radius: 15px;
     
 }
 
 .card-image{
-    height: 495px;
+    height: 230px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
@@ -181,6 +181,22 @@ button:hover{
     transform: scale(1.03);
     transition: all 1s ease;
     background-blend-mode: color rgb(62, 62, 62);
+}
+
+@media (max-width: 574px) {
+    
+    .logo{
+        width:120px;
+        padding-bottom: 5px;
+    }
+
+    .navbar ul li a{
+        font-size: 13px;
+    }
+
+    .contact-1{
+        padding-top: 10px;
+    }
 }
 
 
