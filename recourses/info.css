@@ -9,7 +9,7 @@
 
 
 .section-1{
-    background: url(./images/hooded-jacket-fashion-model-black-generated-by-ai_188544-34320.avif);
+    background: url(./images/hooded-jacket-fashion-model-black-generated-by-ai_188544-34320.webp);
     width: 100%;
     background-size: cover;
     height: 90vh;
@@ -105,6 +105,22 @@ button:hover{
     padding: 20px;
     line-height: 1.8em;
     font-size: 18px;
+}
+
+@media (max-width: 574px) {
+    
+    .logo{
+        width:120px;
+        padding-bottom: 5px;
+    }
+
+    .navbar ul li a{
+        font-size: 13px;
+    }
+
+    .contact-1{
+        padding-top: 10px;
+    }
 }
 
 @media (max-width: 769px) {
