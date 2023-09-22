@@ -7,7 +7,7 @@
 }
 
 .section-1{
-    background: url(./images/hooded-burglar-threatens-danger-spooky-darkness-generated-by-ai_188544-43316.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.4 ), rgba(0,0,0,0.4)),url(./images/design\ bg\ big.jpg);;
     width: 100%;
     background-size: cover;
     height: 90vh;
@@ -176,9 +176,6 @@ button:hover{
     background-image: url(./images/Update-2/your\ idea!\ \(4\).png);
 }
 
-.car-18{
-    background-image: url(./images/Update-2/photo1695312627.jpeg);
-}
 
 .card h2{
     padding: 10px;
@@ -220,6 +217,13 @@ button:hover{
 
     .contact-1{
         padding-top: 10px;
+    }
+    .section-1{
+        background: url(./images/design\ bg\ small.jpg);
+        width: 100%;
+        background-size: cover;
+        height: 90vh;
+        background-position: center;
     }
 }
 
