@@ -219,7 +219,7 @@ button:hover{
         padding-top: 10px;
     }
     .section-1{
-        background: url(./images/design\ bg\ small.jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.4 ), rgba(0,0,0,0.4)),url(./images/design\ bg\ small.jpg);;
         width: 100%;
         background-size: cover;
         height: 90vh;
