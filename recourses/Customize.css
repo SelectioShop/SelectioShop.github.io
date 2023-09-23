@@ -194,7 +194,7 @@ button:hover{
         padding-top: 10px;
     }
     .section-1{
-        background: url(./images/custome\ bg\ small\ .jpg);
+        background-image:linear-gradient(rgba(0,0,0,0.5 ), rgba(0,0,0,0.5)),url(./images/custome\ bg\ small\ .jpg);
         width: 100%;
         background-size: cover;
         height: 90vh;
